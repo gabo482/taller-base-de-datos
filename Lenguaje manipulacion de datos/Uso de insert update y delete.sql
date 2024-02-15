@@ -26,3 +26,8 @@ UPDATE alumnos set id_localidad =3 where id IN ('423451111A','523451111A');
 ALTER TABLE alumnos modify id_localidad int not null;
 
 
+-- Insertar registros en tabla localidad
+INSERT INTO `curso_intersemestral`.`localidad`(`id_localidad`,`localidad`)
+VALUES (1,'Coyoacan'),(2,'Azcapotzalco'),(3,'Gustavo A Madero');
+
+
